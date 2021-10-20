@@ -1,0 +1,15 @@
+{
+  "all": {
+    "sourceCodeDir": "app/packs",
+    "watchAdditionalPaths": []
+  },
+  "development": {
+    "autoBuild": false,
+    "publicOutputDir": "vite-dev",
+    "port": 3036
+  },
+  "test": {
+    "autoBuild": false,
+    "publicOutputDir": "vite-test"
+  }
+}

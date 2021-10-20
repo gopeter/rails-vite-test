@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@frontend/*": ["app/packs/frontend/*"],
+      "*": ["app/packs/*"]
+    },
+    "sourceMap": true,
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react",
+    "downlevelIteration": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "moduleResolution": "node",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "strict": true
+  },
+  "exclude": ["**/*.spec.ts", "node_modules", "vendor", "public", "cache"],
+  "compileOnSave": false
+}
